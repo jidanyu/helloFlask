@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return '<h1> %sdasd</h1>' % (app.name + ' jidanyu')
+    return '<h1> %s</h1>' % (app.name + ' jidanyu')
 
 @app.route('/home')
 def home():
